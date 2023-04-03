@@ -13,4 +13,15 @@
 		printOne();
 		printOne();
 	}
+
+
+	#new feature is added by dev4
+	{	int x = 3;
+		int y = 2;
+		System.out.println("In method go. x: " + x + " y: " + y);
+		falseSwap(x,y);
+		System.out.println("in method go. x: " + x + " y: " + y);
+		moreParameters(x,y);
+		System.out.println("in method go. x: " + x + " y: " + y);
+	}
 }
